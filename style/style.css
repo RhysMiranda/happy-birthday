@@ -114,8 +114,8 @@ body {
 
 .six {
   position: relative;
-  width: 500px;
-  height: 500px;
+  width: 100px;
+  height: 100px;
   overflow: hidden; /* Ensures the content stays within the 500x500 box */
   border: 1px solid #000; /* Optional: Adds a border to visualize the square */
 }
