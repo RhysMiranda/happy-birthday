@@ -112,32 +112,23 @@ body {
   font-size: 15rem;
 }
 
-.six {
+six {
   position: relative;
-  width: 100px;
-  height: 100px;
-  overflow: hidden; /* Ensures the content stays within the 500x500 box */
-  border: 1px solid #000; /* Optional: Adds a border to visualize the square */
 }
 
 .six img {
   display: inline-block;
   max-width: 100%;
   height: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* Centers the image */
 }
 
 .six .hat {
   position: absolute;
   width: 80px;
   top: -35px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 41.5%;
+  /* transform: scale(0.1); */
 }
-
 
 .baloons img {
   display: inline-block;
